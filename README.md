@@ -5,19 +5,17 @@
 Running main.py gave the following results:
 (Note, due to the inherent randomness in initialising weights etc, running this code yourself/repeatedly may give slightly different results)
 
-```
 Train on 60000 samples
 Epoch 1/5
-60000/60000 [==============================] - 2s 30us/sample - loss: 0.2609 - accuracy: 0.9258
+60000/60000 [==============================] - 3s 43us/sample - loss: 0.3018 - accuracy: 0.9119
 Epoch 2/5
-60000/60000 [==============================] - 2s 28us/sample - loss: 0.1155 - accuracy: 0.9657
+60000/60000 [==============================] - 2s 37us/sample - loss: 0.1456 - accuracy: 0.9574
 Epoch 3/5
-60000/60000 [==============================] - 2s 27us/sample - loss: 0.0785 - accuracy: 0.9761
+60000/60000 [==============================] - 2s 36us/sample - loss: 0.1078 - accuracy: 0.9667
 Epoch 4/5
-60000/60000 [==============================] - 2s 27us/sample - loss: 0.0583 - accuracy: 0.9820
+60000/60000 [==============================] - 2s 37us/sample - loss: 0.0864 - accuracy: 0.9735
 Epoch 5/5
-60000/60000 [==============================] - 2s 27us/sample - loss: 0.0446 - accuracy: 0.9863
-10000/10000 [==============================] - 0s 20us/sample - loss: 0.0738 - accuracy: 0.9787
-```
+60000/60000 [==============================] - 2s 32us/sample - loss: 0.0736 - accuracy: 0.9768
+10000/10000 [==============================] - 0s 23us/sample - loss: 0.0759 - accuracy: 0.9760
 
 ##TODO: Add better visualisation

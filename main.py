@@ -13,6 +13,7 @@ x_test = x_test/255.0
 model = tf.keras.models.Sequential([
     tf.keras.layers.Flatten(input_shape=(28,28)), #28x28 pixels
     tf.keras.layers.Dense(128, activation='relu'),#128 neuron layer
+    tf.keras.layers.Dropout(0.2),#dropout layer to combat overfitting
     tf.keras.layers.Dense(10, activation='softmax') #10 layers for values 0-9
 ])
 
