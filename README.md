@@ -5,17 +5,18 @@
 Running main.py gave the following results:
 (Note, due to the inherent randomness in initialising weights etc, running this code yourself/repeatedly may give slightly different results)
 
-Train on 60000 samples
-Epoch 1/5
-60000/60000 [==============================] - 3s 43us/sample - loss: 0.3018 - accuracy: 0.9119
-Epoch 2/5
-60000/60000 [==============================] - 2s 37us/sample - loss: 0.1456 - accuracy: 0.9574
-Epoch 3/5
-60000/60000 [==============================] - 2s 36us/sample - loss: 0.1078 - accuracy: 0.9667
-Epoch 4/5
-60000/60000 [==============================] - 2s 37us/sample - loss: 0.0864 - accuracy: 0.9735
-Epoch 5/5
-60000/60000 [==============================] - 2s 32us/sample - loss: 0.0736 - accuracy: 0.9768
-10000/10000 [==============================] - 0s 23us/sample - loss: 0.0759 - accuracy: 0.9760
+```
+    Train on 60000 samples, validate on 10000 samples
+    Epoch 1/5
+    60000/60000 [==============================] - 2s 33us/sample - loss: 0.3040 - accuracy: 0.9108 - val_loss: 0.1495 - val_accuracy: 0.9553
+    Epoch 2/5
+    60000/60000 [==============================] - 2s 30us/sample - loss: 0.1496 - accuracy: 0.9554 - val_loss: 0.1030 - val_accuracy: 0.9691
+    Epoch 3/5
+    60000/60000 [==============================] - 2s 30us/sample - loss: 0.1104 - accuracy: 0.9667 - val_loss: 0.0882 - val_accuracy: 0.9723
+    Epoch 4/5
+    60000/60000 [==============================] - 2s 30us/sample - loss: 0.0908 - accuracy: 0.9720 - val_loss: 0.0780 - val_accuracy: 0.9766
+    Epoch 5/5
+    60000/60000 [==============================] - 2s 30us/sample - loss: 0.0777 - accuracy: 0.9760 - val_loss: 0.0726 - val_accuracy: 0.9788
+```
 
 ## TODO: Add better visualisation

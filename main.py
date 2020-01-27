@@ -22,8 +22,9 @@ model.compile(
     loss='sparse_categorical_crossentropy',
     metrics=['accuracy'])
 
-model.fit(x_train, y_train, epochs=5)
-#train the model
-
-model.evaluate(x_test, y_test)
-#evaluate test set on trained model
+model.fit(
+    x=x_train, 
+    y=y_train, 
+    epochs=5,
+    validation_data=(x_test, y_test))
+#train the model and evaluate test accuracy
